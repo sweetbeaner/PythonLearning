@@ -9,6 +9,6 @@
 def retTest():
     a=1
     b=2
-    return a,b
+    return a,b # 返回元组
 
 print(retTest()[0])
