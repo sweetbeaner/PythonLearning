@@ -17,11 +17,32 @@ git config --global user.email 邮箱
 
 * 创建仓库
 
-在项目文件夹下的git bash中使用 git init 初始化
+在项目文件夹下的git bash中初始化：git init 
 
-使用他人的git创建仓库，git clone 项目url
+使用他人的git创建仓库：git clone 项目url
 
-#
+## 2.状态与提交版本
+
+### 2.1 跟踪Track
+
+* 跟踪文件
+
+git add <file_name>
+
+* 各种当前目录
+
+git add .
+
+### 2.2 取消跟踪Untrack
+
+* rm 删除
+
+git rm <file_name>
+
+* 保留但不跟踪
+
+git rm-cache <file_name>
+
 
 * 
 
