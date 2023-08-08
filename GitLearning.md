@@ -1,4 +1,4 @@
-![image](https://github.com/sweetbeaner/PythonLearning/assets/45441850/41862366-3096-44c0-acdd-cc65815b021c)# Git简明学习
+# Git简明学习
 ## 1.Git的安装与配置
 ### 1.1Git的安装
 
