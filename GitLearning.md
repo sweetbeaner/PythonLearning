@@ -88,8 +88,39 @@ git log 查看历史提交信息
 
 git log --all --graph
 
-  
-  
-  
-  
-  ![image](https://github.com/sweetbeaner/PythonLearning/assets/45441850/e44e9d5c-6589-45a9-b080-a81e8d21d5fb)
+![image](https://github.com/sweetbeaner/PythonLearning/assets/45441850/e44e9d5c-6589-45a9-b080-a81e8d21d5fb)
+
+## 3.远程仓库
+
+可以使用github等进行托管
+
+* 连接远程仓库：git remote add 仓库/项目名 远程仓库连接
+
+* 修改远程仓库名称：git remote rename 目标仓库名 修改后的名称 
+
+* 推送到远程仓库： git push 仓库名 分支名
+
+可以使用token令牌或者ssh鉴权进行授权，具体参考github文档
+
+## 4.分支Branch
+
+分支的意义：规范化开发、测试和发布过程
+
+![image](https://github.com/sweetbeaner/PythonLearning/assets/45441850/e2174dfe-a849-4773-983e-8d12aa3e7550)
+
+### 4.1 查看当前分支
+
+* git status
+* git branch --list
+* git log
+
+### 4.2 创建分支
+
+git branch 分支名
+
+git checkout -b 分支名
+
+### 4.3 切换分支
+
+git checkout 分支名
+
