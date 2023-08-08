@@ -43,7 +43,22 @@ git rm <file_name>
 
 git rm-cache <file_name>
 
+### 2.3 文件的修改
 
+* 将修改后的文件暂存
+
+git add <file_name>
+
+* 取消暂存
+
+git reset HEAD <file_name>
+
+* 提交暂存的修改
+
+git commit <file_name>，进入提交页面类似vim，按i进行输入文本，按Esc结束编辑，按:进入命令栏，输入wq保存并退出
+
+git commit <file_name> -m '修改说明'
+*  
 * 
 
 
