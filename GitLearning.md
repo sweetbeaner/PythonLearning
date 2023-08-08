@@ -1,13 +1,14 @@
 # Git简明学习
-## 1.Git的安装
+## 1.Git的安装与配置
+### 1.1Git的安装
 
 https://git-scm.com/download/win
 
-## 2.Git的配置
+### 1.2Git的使用入口
 
 进入git bash或者终端
 
-### 2.1基础配置
+### 1.3Git的基础配置
 
 * 首次使用说明身份：配置User和Email，并非注册，仅仅作为身份标识使用
 
@@ -16,6 +17,11 @@ git config --global user.email 邮箱
 
 * 创建仓库
 
+在项目文件夹下的git bash中使用 git init 初始化
+
+使用他人的git创建仓库，git clone 项目url
+
+#
 
 * 
 
