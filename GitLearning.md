@@ -55,12 +55,38 @@ git reset HEAD <file_name>
 
 * 提交暂存的修改
 
-git commit <file_name>，进入提交页面类似vim，按i进行输入文本，按Esc结束编辑，按:进入命令栏，输入wq保存并退出
+git commit <file_name>：进入提交页面类似vim，按i进行输入文本，按Esc结束编辑，按:进入命令栏，输入wq保存并退出
 
-git commit <file_name> -m '修改说明'
-*  
-* 
+git commit <file_name> -m '提交说明'
 
+* 连带未暂存文件一起提交
+
+git commit -am '提交说明'
+
+*  撤回本次提交
+
+git reset head~ --soft：无法撤回首次提交
+
+### 2.4 查看状态
+
+#### 2.4.1 git status
+
+* 红色：已修改且未暂存
+* 绿色：已暂存
+* 不现实：已经完成提交
+* Untracked Files：未进行add跟踪（track）的代码
+
+#### 2.4.2 git log
+
+git log 查看历史提交信息
+
+#### 2.4.3 git log --all
+
+查看所有分值的历史提交
+
+结合graph更好
+
+git log --all --graph
 
   
   
