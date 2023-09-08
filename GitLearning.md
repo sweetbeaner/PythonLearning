@@ -100,6 +100,10 @@ git log --all --graph
 
 * 推送到远程仓库： git push 仓库名 分支名
 
+* 查看现在连接的远程仓库：git remote -v
+
+* 删除远程仓库：git remote rm <name> 
+
 可以使用token令牌或者ssh鉴权进行授权，具体参考github文档
 
 ## 4.分支Branch
